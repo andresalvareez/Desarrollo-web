@@ -1,0 +1,31 @@
+.Curso{
+  text-align: right;
+}
+h1{
+  text-align: center;
+  font-family: 'Noto Sans Mono', monospace;
+}
+h4{
+  text-align: justify;
+  font-family: 'Scheherazade New', serif;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  h3{
+    color: red;
+  }
+}
+
+/* Small devices (landscape phones, entre 576px y 991.98px) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  h3{
+    color: blue;
+  }
+}
+
+/* Extra large devices*/
+@media (min-width: 992px){
+  h3{
+    color: green;
+  }
+}
